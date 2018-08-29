@@ -1,0 +1,66 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tables</title>
+</head>
+<body>
+<h1>Jazz Musicians</h1>
+<table>
+    <tr>
+        <th></th>
+        <th scope="col">Birthplace</th>
+        <th scope="col">Birth Year</th>
+        <th scope="col" colspan="2">Instruments</th>
+    </tr>
+    <tr>
+        <th scope="row">Don Cherry</th>
+        <td>Oklahoma City, OK</td>
+        <td>1936</td>
+        <td>Trumpet</td>
+        <td>Piano</td>
+    </tr>
+    <tr>
+        <th scope="row">John Coltrane</th>
+        <td>Hamlet, NC</td>
+        <td>1926</td>
+        <td>Tenor Saxophone</td>
+        <td>Soprano Saxophone</td>
+    </tr>
+    <tr>
+        <th scope="row">Marion Brown</th>
+        <td>Atlanta, GA</td>
+        <td>1931</td>
+        <td>Alto Saxophone</td>
+        <td>Percussion</td>
+    </tr>
+</table>
+<br />
+<h2>Enter another musician:</h2>
+<form>
+    <p>Name
+        <input type="text" name="name" size="30" maxlength="50" />
+    </p>
+    <p>Birthplace
+        <input type="text" name="birthplace" size="30" maxlength="50" />
+    </p>
+    <p>Birth Year
+        <input type="text" name="birthyear" size="30" maxlength="50" />
+    </p>
+    <p>Instrument
+        <input type="text" name="instrument" size="30" maxlength="50" />
+    </p>
+</form>
+<form>
+    <p>How do you like this site?</p>
+    <textarea name="comments" cols="50" rows="10">Enter your comments...</textarea>
+</form>
+<form>
+    <p>Would you return to this site?
+        <input type="radio" name="return" value="Yes" checked="checked" /> Yes
+        <input type="radio" name="return" value="No" /> No
+    </p>
+</form>
+    
+</body>
+</html>
